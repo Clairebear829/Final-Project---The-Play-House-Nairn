@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Play House Nairn</title>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Link to Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Reference to the JavaScript file -->
+  <script src="project.js" defer></script>
+  
+  <!-- Reference to the CSS file-->
+  <script src="style.css" defer></script>
+  <link rel="stylesheet" href="contact.css">
+  
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <!-- Instagram and Facebook icons -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/theplayhousenairn/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/theplayhousenairn">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+      </ul>
+      <!-- Business logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="Assets/PH Logo.jpeg" alt="Logo" width="70" height="auto" class="d-under-block align-text-middle">
+
+      </a>
+      <!-- Navigation buttons -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact Us.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Events.html">Events</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Banner Image -->
+<div class="container-fluid p-0">
+<img src="Assets/Sign.jpeg" alt="Sign" style="width: 100%; height: auto;">
+</div>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="py-5">
+      <div class="container">
+          <h1 class="text-center mb-4">Contact Us</h1>
+          <p class="text-center"> Looking for an event space? Lost something? Want to work with us? Fill in the form below and one our our team will get back to you!</p>
+      </div>
+  </section>
+
+  <!-- Contact Form -->
+<div class="container1 mt-4">
+    <form>
+      <div class="form-group">
+        <label for="enquirySelect">Select the nature of your enquiry:</label>
+        <select class="form-control" id="enquirySelect" required>
+          <option value="" disabled selected>Choose an option...</option>
+          <option>Lost Property</option>
+          <option>Event Enquiry</option>
+          <option>Vacancies</option>
+          <option>Other</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="firstNameInput">First Name:</label>
+        <input type="text" class="form-control" id="firstNameInput" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="lastNameInput">Last Name:</label>
+        <input type="text" class="form-control" id="lastNameInput" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="emailInput">Email address:</label>
+        <input type="email" class="form-control" id="emailInput" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="messageTextarea">Your message:</label>
+        <textarea class="form-control" id="messageTextarea" rows="6" required></textarea>
+      </div>
+  
+      <div class="form-group">
+        <label for="fileUpload">File Upload:</label>
+        <input type="file" class="form-control-file" id="fileUpload">
+      </div>
+
+      <button onclick="location.href='mailto:c.ironside829@gmail.com';" class="btn btn-primary">Submit</button>
+</form>
+  </div>
+
+  <!-- Embeded google map -->
+  <div class="container1">
+    <h2>Find Us</h2>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2138.761984109954!2d-3.8711234590968155!3d57.58451404955198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488581cbafbbbf19%3A0x3b822c494e91ec84!2sThe%20Play%20House!5e0!3m2!1sen!2suk!4v1690474902016!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+<footer>
+    The Play House Nairn - Final Project Claire Ironside
+</footer>
+
+
+    <!-- Link to Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  

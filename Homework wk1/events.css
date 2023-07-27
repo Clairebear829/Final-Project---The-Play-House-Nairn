@@ -1,0 +1,49 @@
+body {
+    background-color: #222;
+    color: #fff;
+  }
+  .navbar-brand {
+    font-size: 18px;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #830875;
+  }
+  .navbar-brand, .nav-link {
+    text-transform: uppercase;
+  }
+  .navbar-brand {
+      justify-items: center;
+    }
+
+/* styling the Header 2 */
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* styling events calendar */
+.container2 {
+    padding: 5%
+}
+h4 {
+    color: black;
+}
+h6 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* styling the footer */
+footer {
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%
+    
+}
